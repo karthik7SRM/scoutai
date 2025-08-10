@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.top {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.top h1 {
+    margin: 0;
+    padding: 20px;
+}
+
+.middle form {
+    width: 300px;
+    margin: 10px auto 0 auto;
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 160, 122, 0.8);
+}
+
+.middle form h5{
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="submit"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="number"]{
+    background-color: lightcoral;
+    border: none;
+    border-radius: 10px;
+}
+
+input[type="submit"]{
+    background-color: lightblue;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
